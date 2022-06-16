@@ -2,7 +2,7 @@ import ContactItem from '../ContactItem';
 import { UlContacts } from './ContactList.styled';
 
 interface IProps {
-  visibleContacts: any[],
+  visibleContacts: {[key: string]: string} [],
   onDeleteContact: (contactId: string) => void,
 };
 
